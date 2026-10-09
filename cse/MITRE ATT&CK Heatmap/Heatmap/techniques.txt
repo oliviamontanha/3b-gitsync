@@ -1,0 +1,899 @@
+#TA0043
+T1595|Active Scanning|Adversaries may execute active reconnaissance scans
+T1595.001|Scanning IP Blocks|Scan victim IP blocks
+T1595.002|Vulnerability Scanning|Scan for vulnerabilities
+T1595.003|Wordlist Scanning|Wordlist scanning
+T1592|Gather Victim Host Information|Gather information about victim hosts
+T1592.001|Hardware|Gather hardware info
+T1592.002|Software|Gather software info
+T1592.003|Firmware|Gather firmware info
+T1592.004|Client Configurations|Gather client configurations
+T1589|Gather Victim Identity Information|Gather victim identity information
+T1589.001|Credentials|Gather credentials
+T1589.002|Email Addresses|Gather email addresses
+T1589.003|Employee Names|Gather employee names
+T1590|Gather Victim Network Information|Gather victim network information
+T1590.001|Domain Properties|Gather domain properties
+T1590.002|DNS|Gather DNS information
+T1590.003|Network Trust Dependencies|Gather network trust dependencies
+T1590.004|Network Topology|Gather network topology
+T1590.005|IP Addresses|Gather IP addresses
+T1590.006|Network Security Appliances|Gather security appliance info
+T1591|Gather Victim Org Information|Gather victim organization information
+T1591.001|Determine Physical Locations|Determine physical locations
+T1591.002|Business Relationships|Identify business relationships
+T1591.003|Identify Business Tempo|Identify business tempo
+T1591.004|Identify Roles|Identify roles
+T1598|Phishing for Information|Send phishing messages to gather information
+T1598.001|Spearphishing Service|Spearphishing via service
+T1598.002|Spearphishing Attachment|Spearphishing attachment
+T1598.003|Spearphishing Link|Spearphishing link
+T1598.004|Spearphishing Voice|Spearphishing voice
+T1597|Search Closed Sources|Search closed sources
+T1597.001|Threat Intel Vendors|Threat intel vendors
+T1597.002|Purchase Technical Data|Purchase technical data
+T1596|Search Open Technical Databases|Search open technical databases
+T1596.001|DNS/Passive DNS|DNS/Passive DNS
+T1596.002|WHOIS|WHOIS
+T1596.003|Digital Certificates|Digital certificates
+T1596.004|CDNs|CDNs
+T1596.005|Scan Databases|Scan databases
+T1593|Search Open Websites/Domains|Search open websites and domains
+T1593.001|Social Media|Social media
+T1593.002|Search Engines|Search engines
+T1593.003|Code Repositories|Code repositories
+T1681|Search Threat Vendor Data|Search threat vendor data
+T1594|Search Victim-Owned Websites|Search victim-owned websites
+#TA0042
+T1650|Acquire Access|Purchase or acquire existing access
+T1583|Acquire Infrastructure|Buy, lease, or rent infrastructure
+T1583.001|Domains|Acquire domains
+T1583.002|DNS Server|Set up DNS servers
+T1583.003|Virtual Private Server|Rent VPSes
+T1583.004|Server|Acquire physical servers
+T1583.005|Botnet|Acquire botnets
+T1583.006|Web Services|Register for web services
+T1583.007|Serverless|Acquire serverless infrastructure
+T1583.008|Malvertising|Acquire malvertising
+T1586|Compromise Accounts|Compromise accounts with services
+T1586.001|Social Media Accounts|Compromise social media
+T1586.002|Email Accounts|Compromise email
+T1586.003|Cloud Accounts|Compromise cloud accounts
+T1584|Compromise Infrastructure|Compromise third-party infrastructure
+T1584.001|Domains|Compromise domains
+T1584.002|DNS Server|Compromise DNS servers
+T1584.003|Virtual Private Server|Compromise VPSes
+T1584.004|Server|Compromise servers
+T1584.005|Botnet|Compromise botnets
+T1584.006|Web Services|Compromise web services
+T1584.007|Serverless|Compromise serverless
+T1584.008|Network Devices|Compromise network devices
+T1587|Develop Capabilities|Build capabilities for targeting
+T1587.001|Malware|Develop malware
+T1587.002|Code Signing Certificates|Develop code signing certs
+T1587.003|Digital Certificates|Develop digital certificates
+T1587.004|Exploits|Develop exploits
+T1585|Establish Accounts|Create and cultivate accounts
+T1585.001|Social Media Accounts|Establish social media
+T1585.002|Email Accounts|Establish email accounts
+T1585.003|Cloud Accounts|Establish cloud accounts
+T1588|Obtain Capabilities|Buy or steal capabilities
+T1588.001|Malware|Obtain malware
+T1588.002|Tool|Obtain tools
+T1588.003|Code Signing Certificates|Obtain code signing certs
+T1588.004|Digital Certificates|Obtain digital certificates
+T1588.005|Exploits|Obtain exploits
+T1588.006|Vulnerabilities|Obtain vulnerability info
+T1588.007|Artificial Intelligence|Obtain AI capabilities
+T1608|Stage Capabilities|Upload or set up capabilities
+T1608.001|Upload Malware|Upload malware
+T1608.002|Upload Tool|Upload tools
+T1608.003|Install Digital Certificate|Install certificates
+T1608.004|Drive-by Target|Stage drive-by target
+T1608.005|Link Target|Stage link target
+T1608.006|SEO Poisoning|SEO poisoning
+#TA0001
+T1659|Content Injection|Gain access by injecting malicious content
+T1189|Drive-by Compromise|Gain access through visiting a website
+T1190|Exploit Public-Facing Application|Exploit Internet-facing applications
+T1133|External Remote Services|Leverage external-facing remote services
+T1200|Hardware Additions|Introduce hardware devices
+T1566|Phishing|Send phishing messages
+T1566.001|Spearphishing Attachment|Spearphishing with malicious attachments
+T1566.002|Spearphishing Link|Spearphishing with malicious links
+T1566.003|Spearphishing via Service|Spearphishing via third-party services
+T1566.004|Spearphishing Voice|Spearphishing voice
+T1091|Replication Through Removable Media|Copy malware to removable media
+T1195|Supply Chain Compromise|Manipulate products prior to receipt
+T1195.001|Compromise Software Dependencies and Development Tools|Manipulate software dependencies
+T1195.002|Compromise Software Supply Chain|Manipulate application software
+T1195.003|Compromise Hardware Supply Chain|Manipulate hardware components
+T1199|Trusted Relationship|Leverage organizations with access to victims
+T1078|Valid Accounts|Obtain and abuse credentials
+T1078.001|Default Accounts|Use default accounts
+T1078.002|Domain Accounts|Use domain accounts
+T1078.003|Local Accounts|Use local accounts
+T1078.004|Cloud Accounts|Use cloud accounts
+T1669|Wi-Fi Networks|Use wireless networks
+#TA0002
+T1651|Cloud Administration Command|Abuse cloud management services
+T1059|Command and Scripting Interpreter|Abuse command and script interpreters
+T1059.001|PowerShell|Abuse PowerShell
+T1059.002|AppleScript|Abuse AppleScript
+T1059.003|Windows Command Shell|Abuse Windows command shell
+T1059.004|Unix Shell|Abuse Unix shell
+T1059.005|Visual Basic|Abuse Visual Basic
+T1059.006|Python|Abuse Python
+T1059.007|JavaScript|Abuse JavaScript
+T1059.008|Network Device CLI|Abuse network device CLI
+T1059.009|Cloud API|Abuse cloud APIs
+T1059.010|AutoHotKey & AutoIT|Abuse AutoIT and AutoHotKey
+T1059.011|Lua|Abuse Lua
+T1059.012|Hypervisor CLI|Abuse hypervisor CLI
+T1059.013|Container CLI/API|Abuse built-in CLI or APIs
+T1609|Container Administration Command|Abuse container administration
+T1610|Deploy Container|Deploy containers
+T1675|ESXi Administration Command|Abuse ESXi administration services
+T1203|Exploitation for Client Execution|Exploit client applications
+T1674|Input Injection|Simulate keystrokes
+T1559|Inter-Process Communication|Abuse IPC mechanisms
+T1559.001|Component Object Model|Abuse COM
+T1559.002|Dynamic Data Exchange|Abuse DDE
+T1559.003|XPC Services|Abuse XPC services
+T1106|Native API|Interact with native OS APIs
+T1677|Poisoned Pipeline Execution|Manipulate CI/CD processes
+T1053|Scheduled Task/Job|Abuse task scheduling
+T1053.002|At|Abuse at utility on Windows
+T1053.003|Cron|Abuse cron
+T1053.005|Scheduled Task|Abuse Windows Task Scheduler
+T1053.006|Systemd Timers|Abuse systemd timers
+T1053.007|Container Orchestration Job|Abuse container orchestration
+T1648|Serverless Execution|Abuse serverless computing
+T1129|Shared Modules|Execute via shared modules
+T1072|Software Deployment Tools|Abuse software deployment tools
+T1569|System Services|Abuse system services
+T1569.001|Launchctl|Abuse launchctl
+T1569.002|Service Execution|Service execution
+T1569.003|Systemctl|Abuse systemctl
+T1204|User Execution|Rely upon user actions
+T1204.001|Malicious Link|User clicks malicious link
+T1204.002|Malicious File|User opens malicious file
+T1204.003|Malicious Image|User runs malicious container images
+T1204.004|Malicious Copy and Paste|User copies and pastes code
+T1204.005|Malicious Library|User installs a malicious library
+T1047|Windows Management Instrumentation|Abuse WMI
+#TA0003
+T1098|Account Manipulation|Manipulate accounts
+T1098.001|Additional Cloud Credentials|Add cloud credentials
+T1098.002|Additional Email Delegate Permissions|Add email delegate permissions
+T1098.003|Additional Cloud Roles|Add cloud roles
+T1098.004|SSH Authorized Keys|Add SSH authorized keys
+T1098.005|Device Registration|Device registration
+T1098.006|Additional Container Cluster Roles|Additional container cluster roles
+T1098.007|Additional Local or Group Domains|Additional local or group domains
+T1197|BITS Jobs|Abuse BITS jobs
+T1547|Boot or Logon Autostart Execution|Configure autostart execution
+T1547.001|Registry Run Keys / Startup Folder|Registry run keys
+T1547.002|Authentication Package|Authentication package
+T1547.003|Time Providers|Time providers
+T1547.004|Winlogon Helper DLL|Winlogon helper DLL
+T1547.005|Security Support Provider|Security support provider
+T1547.006|Kernel Modules and Extensions|Kernel modules
+T1547.007|Re-opened Applications|Re-opened applications
+T1547.008|LSASS Driver|LSASS driver
+T1547.009|Shortcut Modification|Shortcut modification
+T1547.010|Port Monitors|Port monitors
+T1547.012|Print Processors|Print processors
+T1547.013|XDG Autostart Entries|XDG autostart
+T1547.014|Active Setup|Active setup
+T1547.015|Login Items|Login items
+T1037|Boot or Logon Initialization Scripts|Use initialization scripts
+T1037.001|Logon Script (Windows)|Logon script Windows
+T1037.002|Login Hook|Login hook
+T1037.003|Network Logon Script|Network logon script
+T1037.004|RC Scripts|RC scripts
+T1037.005|Startup Items|Startup items
+T167|Cloud Application Integration|Abuse OAuth application integrations
+T1554|Compromise Client Software Binary|Modify software binaries
+T1136|Create Account|Create accounts
+T1136.001|Local Account|Create local account
+T1136.002|Domain Account|Create domain account
+T1136.003|Cloud Account|Create cloud account
+T1543|Create or Modify System Process|Create or modify system processes
+T1543.001|Launch Agent|Launch agent
+T1543.002|Systemd Service|Systemd service
+T1543.003|Windows Service|Windows service
+T1543.004|Launch Daemon|Launch daemon
+T1543.005|Container Service|Container service
+T1546|Event Triggered Execution|Establish persistence using event triggers
+T1546.001|Change Default File Association|Change file association
+T1546.002|Screensaver|Screensaver
+T1546.003|Windows Management Instrumentation Event Subscription|WMI event subscription
+T1546.004|Unix Shell Configuration Modification|Unix shell config
+T1546.005|Trap|Trap
+T1546.006|LC_LOAD_DYLIB Addition|LC_LOAD_DYLIB
+T1546.007|Netsh Helper DLL|Netsh helper DLL
+T1546.008|Accessibility Features|Accessibility features
+T1546.009|AppCert DLLs|AppCert DLLs
+T1546.010|AppInit DLLs|AppInit DLLs
+T1546.011|Application Shimming|Application shimming
+T1546.012|Image File Execution Options Injection|IFEO injection
+T1546.013|PowerShell Profile|PowerShell profile
+T1546.014|Emond|Emond
+T1546.015|Component Object Model Hijacking|COM hijacking
+T1546.016|Installer Packages|Installer packages
+T1546.017|Udev Rules|Abuse Udev rules
+T1546.018|Python Startup Hooks|Python startup mechanisms
+T1668|Exclusive Control|Exclusive control
+T1133|External Remote Services|Leverage external-facing remote services
+T1574|Hijack Execution Flow|Hijack execution flow
+T1574.001|DLL Search Order Hijacking|DLL search order hijacking
+T1574.004|Dylib Hijacking|Dylib hijacking
+T1574.005|Executable Installer File Permissions Weakness|Executable installer weakness
+T1574.006|Dynamic Linker Hijacking|Dynamic linker hijacking
+T1574.007|Path Interception by PATH Environment Variable|PATH interception
+T1574.008|Path Interception by Search Order Hijacking|Search order hijacking
+T1574.009|Path Interception by Unquoted Path|Unquoted path
+T1574.010|Services File Permissions Weakness|Services file permissions
+T1574.011|Services Registry Permissions Weakness|Services registry permissions
+T1574.012|COR_PROFILER|COR_PROFILER
+T1574.013|KernelCallbackTable|KernelCallbackTable
+T1574.014|AppDomainManager|AppDomainManager
+T1525|Implant Internal Image|Implant cloud or container images
+T1556|Modify Authentication Process|Modify authentication mechanisms
+T1556.001|Domain Controller Authentication|Modify DC authentication
+T1556.002|Password Filter DLL|Password filter DLL
+T1556.003|Pluggable Authentication Modules|Modify PAM
+T1556.004|Network Device Authentication|Network device auth
+T1556.005|Reversible Encryption|Reversible encryption
+T1556.006|Multi-Factor Authentication|Modify MFA
+T1556.007|Hybrid Identity|Hybrid identity
+T1556.008|Network Provider DLL|Network provider DLL
+T1556.009|Conditional Access Policies|Conditional access policies
+T1112|Modify Registry|Windows Registry
+T1137|Office Application Startup|Leverage Office application startup
+T1137.001|Office Template Macros|Office template macros
+T1137.002|Office Test|Office test
+T1137.003|Outlook Forms|Outlook forms
+T1137.004|Outlook Home Page|Outlook home page
+T1137.005|Outlook Rules|Outlook rules
+T1137.006|Add-ins|Office add-ins
+T1653|Power Settings|Impair power settings
+T1542|Pre-OS Boot|Abuse pre-OS boot
+T1542.001|System Firmware|Modify system firmware
+T1542.002|Component Firmware|Modify component firmware
+T1542.003|Bootkit|Use bootkits
+T1542.004|ROMMONkit|Use ROMMONkits
+T1542.005|TFTP Boot|TFTP boot
+T1053|Scheduled Task/Job|Abuse task scheduling
+T1053.002|At|At utility Windows
+T1053.003|Cron|Cron
+T1053.005|Scheduled Task|Windows Task Scheduler
+T1053.006|Systemd Timers|Systemd timers
+T1053.007|Container Orchestration Job|Container orchestration
+T1505|Server Software Component|Abuse server software components
+T1505.001|SQL Stored Procedures|SQL stored procedures
+T1505.002|Transport Agent|Transport agent
+T1505.003|Web Shell|Web shell
+T1505.004|IIS Components|IIS components
+T1505.005|Terminal Services DLL|Terminal services DLL
+T1505.006|vSphere Installation Bundles|Abuse vSphere Installation Bundles
+T1176|Software Extensions|Abuse software extensions
+T1205.001|Browser Extensions|Abuse browser extensions
+T1205.002|IDE Extensions|Abuse IDEs
+T1205|Traffic Signaling|Use traffic signaling
+T1205.001|Port Knocking|Port knocking
+T1205.002|Socket Filters|Socket filters
+T1078|Valid Accounts|Obtain and abuse credentials
+T1078.001|Default Accounts|Default accounts
+T1078.002|Domain Accounts|Domain accounts
+T1078.003|Local Accounts|Local accounts
+T1078.004|Cloud Accounts|Cloud accounts
+#TA0004
+T1548|Abuse Elevation Control Mechanism|Circumvent elevation control mechanisms
+T1548.001|Setuid and Setgid|Setuid/setgid
+T1548.002|Bypass User Account Control|Bypass UAC
+T1548.003|Sudo and Sudo Caching|Sudo
+T1548.004|Elevated Execution with Prompt|Elevated execution
+T1548.005|Temporary Elevated Cloud Access|Abuse permission configurations
+T1548.006|TCC Manipulation|Abuse TCC
+T1134|Access Token Manipulation|Modify access tokens
+T1134.001|Token Impersonation/Theft|Token impersonation
+T1134.002|Create Process with Token|Create process with token
+T1134.003|Make and Impersonate Token|Make and impersonate token
+T1134.004|Parent PID Spoofing|Parent PID spoofing
+T1134.005|SID-History Injection|SID-History injection
+T1098|Account Manipulation|Manipulate accounts
+T1098.001|Additional Cloud Credentials|Add adversary-controlled credentials
+T1098.002|Additional Email Delegate Permissions|Additional email delegate permissions
+T1098.003|Additional Cloud Roles|Additional cloud roles
+T1098.004|SSH Authorized Keys|Modify SSH authorized keys
+T1098.005|Device Registration|Register device to adversary-controlled account
+T1098.006|Additional Container Cluster Roles|Additional container cluster roles
+T1098.007|Additional Local or Domain Groups|Re-opened applications
+T1547|Boot or Logon Autostart Execution|Configure autostart execution
+T1547.001|Registry Run Keys / Startup Folder|Registry run keys
+T1547.002|Authentication Package|Authentication package
+T1547.003|Time Providers|Time providers
+T1547.004|Winlogon Helper DLL|Winlogon helper DLL
+T1547.005|Security Support Provider|Security support provider
+T1547.006|Kernel Modules and Extensions|Kernel modules
+T1547.007|Re-opened Applications|Re-opened applications
+T1547.008|LSASS Driver|LSASS driver
+T1547.009|Shortcut Modification|Shortcut modification
+T1547.010|Port Monitors|Port monitors
+T1547.012|Print Processors|Print processors
+T1547.013|XDG Autostart Entries|XDG autostart
+T1547.014|Active Setup|Active setup
+T1547.015|Login Items|Login items
+T1037|Boot or Logon Initialization Scripts|Use initialization scripts
+T1037.001|Logon Script (Windows)|Logon script Windows
+T1037.002|Login Hook|Login hook
+T1037.003|Network Logon Script|Network logon script
+T1037.004|RC Scripts|RC scripts
+T1037.005|Startup Items|Startup items
+T1543|Create or Modify System Process|Create or modify system processes
+T1543.001|Launch Agent|Launch agent
+T1543.002|Systemd Service|Systemd service
+T1543.003|Windows Service|Windows service
+T1543.004|Launch Daemon|Launch daemon
+T1543.005|Container Service|Container service
+T1484|Domain or Tenant Policy Modification|Modify domain policies
+T1484.001|Group Policy Modification|Modify group policy
+T1484.002|Domain Trust Modification|Modify domain trusts
+T1611|Escape to Host|Break out of container
+T1546|Event Triggered Execution|Establish persistence using event triggers
+T1546.001|Change Default File Association|Change file association
+T1546.002|Screensaver|Screensaver
+T1546.003|Windows Management Instrumentation Event Subscription|WMI event subscription
+T1546.004|Unix Shell Configuration Modification|Unix shell config
+T1546.005|Trap|Trap
+T1546.006|LC_LOAD_DYLIB Addition|LC_LOAD_DYLIB
+T1546.007|Netsh Helper DLL|Netsh helper DLL
+T1546.008|Accessibility Features|Accessibility features
+T1546.009|AppCert DLLs|AppCert DLLs
+T1546.010|AppInit DLLs|AppInit DLLs
+T1546.011|Application Shimming|Application shimming
+T1546.012|Image File Execution Options Injection|IFEO injection
+T1546.013|PowerShell Profile|PowerShell profile
+T1546.014|Emond|Emond
+T1546.015|Component Object Model Hijacking|COM hijacking
+T1546.016|Installer Packages|Installer packages
+T1546.017|Udev Rules|Abuse Udev rules
+T1546.018|Python Startup Hooks|Python startup mechanisms
+T1068|Exploitation for Privilege Escalation|Exploit software vulnerabilities
+T1574|Hijack Execution Flow|Hijack execution flow
+T1574.001|DLL Search Order Hijacking|DLL search order hijacking
+T1574.004|Dylib Hijacking|Dylib hijacking
+T1574.005|Executable Installer File Permissions Weakness|Executable installer weakness
+T1574.006|Dynamic Linker Hijacking|Dynamic linker hijacking
+T1574.007|Path Interception by PATH Environment Variable|PATH interception
+T1574.008|Path Interception by Search Order Hijacking|Search order hijacking
+T1574.009|Path Interception by Unquoted Path|Unquoted path
+T1574.010|Services File Permissions Weakness|Services file permissions
+T1574.011|Services Registry Permissions Weakness|Services registry permissions
+T1574.012|COR_PROFILER|COR_PROFILER
+T1574.013|KernelCallbackTable|KernelCallbackTable
+T1574.014|AppDomainManager|AppDomainManager
+T1055|Process Injection|Inject code into processes
+T1055.001|Dynamic-link Library Injection|DLL injection
+T1055.002|Portable Executable Injection|PE injection
+T1055.003|Thread Execution Hijacking|Thread execution hijacking
+T1055.004|Asynchronous Procedure Call|APC injection
+T1055.005|Thread Local Storage|TLS injection
+T1055.008|Ptrace System Calls|Ptrace
+T1055.009|Proc Memory|Proc memory
+T1055.011|Extra Window Memory Injection|EWM injection
+T1055.012|Process Hollowing|Process hollowing
+T1055.013|Process Doppelgänging|Process doppelgänging
+T1055.014|VDSO Hijacking|VDSO hijacking
+T1055.015|ListPlanting|ListPlanting
+T1053|Scheduled Task/Job|Abuse task scheduling
+T1053.002|At|At utility Windows
+T1053.003|Cron|Cron
+T1053.005|Scheduled Task|Windows Task Scheduler
+T1053.006|Systemd Timers|Systemd timers
+T1053.007|Container Orchestration Job|Container orchestration
+T1078|Valid Accounts|Obtain and abuse credentials
+T1078.001|Default Accounts|Default accounts
+T1078.002|Domain Accounts|Domain accounts
+T1078.003|Local Accounts|Local accounts
+T1078.004|Cloud Accounts|Cloud accounts
+#TA0005
+T1548|Abuse Elevation Control Mechanism|Circumvent elevation control mechanisms
+T1548.001|Setuid and Setgid|Setuid/setgid
+T1548.002|Bypass User Account Control|Bypass UAC
+T1548.003|Sudo and Sudo Caching|Sudo
+T1548.004|Elevated Execution with Prompt|Elevated execution
+T1548.005|Temporary Elevated Cloud Access|Abuse permission configurations
+T1548.006|TCC Manipulation|Abuse TCC
+T1134|Access Token Manipulation|Modify access tokens
+T1134.001|Token Impersonation/Theft|Token impersonation
+T1134.002|Create Process with Token|Create process with token
+T1134.003|Make and Impersonate Token|Make and impersonate token
+T1134.004|Parent PID Spoofing|Parent PID spoofing
+T1134.005|SID-History Injection|SID-History injection
+T1197|BITS Jobs|Abuse BITS jobs
+T1612|Build Image on Host|Build container images on host
+T1622|Debugger Evasion|Evade debugger detection
+T1678|Delay Execution|Delay execution
+T1140|Deobfuscate/Decode Files or Information|Decode obfuscated data
+T1610|Deploy Container|Deploy containers
+T1006|Direct Volume Access|Directly access volumes
+T1484|Domain or Tenant Policy Modification|Modify domain policies
+T1484.001|Group Policy Modification|Modify group policy
+T1484.002|Domain Trust Modification|Modify domain trusts
+T1672|Email Spoofing|Email spoofing
+T1480|Execution Guardrails|Use guardrails
+T1480.001|Environmental Keying|Environmental keying
+T1211|Exploitation for Defense Evasion|Exploit software for defense evasion
+T1222|File and Directory Permissions Modification|Modify file permissions
+T1222.001|Windows File and Directory Permissions Modification|Windows permissions
+T1222.002|Linux and Mac File and Directory Permissions Modification|Linux/Mac permissions
+T1564|Hide Artifacts|Hide artifacts
+T1564.001|Hidden Files and Directories|Hidden files
+T1564.002|Hidden Users|Hidden users
+T1564.003|Hidden Window|Hidden window
+T1564.004|NTFS File Attributes|NTFS attributes
+T1564.005|Hidden File System|Hidden file system
+T1564.006|Run Virtual Instance|Run virtual instance
+T1564.007|VBA Stomping|VBA stomping
+T1564.008|Email Hiding Rules|Email hiding rules
+T1564.009|Resource Forking|Resource forking
+T1564.010|Process Argument Spoofing|Process argument spoofing
+T1564.011|Ignore Process Interrupts|Ignore process interrupts
+T1564.012|File/Path Exclusions|File/path exclusions
+T1564.013|Bind Mounts|Abuse bind mounts
+T1564.014|Extended Attributes|Abuse extended attributes
+T1574|Hijack Execution Flow|Hijack execution flow
+T1574.001|DLL Search Order Hijacking|DLL search order hijacking
+T1574.004|Dylib Hijacking|Dylib hijacking
+T1574.005|Executable Installer File Permissions Weakness|Executable installer weakness
+T1574.006|Dynamic Linker Hijacking|Dynamic linker hijacking
+T1574.007|Path Interception by PATH Environment Variable|PATH interception
+T1574.008|Path Interception by Search Order Hijacking|Search order hijacking
+T1574.009|Path Interception by Unquoted Path|Unquoted path
+T1574.010|Services File Permissions Weakness|Services file permissions
+T1574.011|Services Registry Permissions Weakness|Services registry permissions
+T1574.012|COR_PROFILER|COR_PROFILER
+T1574.013|KernelCallbackTable|KernelCallbackTable
+T1574.014|AppDomainManager|AppDomainManager
+T1562|Impair Defenses|Impair defenses
+T1562.001|Disable or Modify Tools|Disable security tools
+T1562.002|Disable Windows Event Logging|Disable event logging
+T1562.003|Impair Command History Logging|Impair command logging
+T1562.004|Disable or Modify System Firewall|Disable firewalls
+T1562.006|Indicator Blocking|Block indicators
+T1562.007|Disable or Modify Cloud Firewall|Disable cloud firewalls
+T1562.008|Disable or Modify Cloud Logs|Disable cloud logging
+T1562.009|Safe Mode Boot|Safe mode boot
+T1562.010|Downgrade Attack|Downgrade attack
+T1562.011|Spoof Security Alerting|Spoof security alerting
+T1562.012|Disable or Modify Linux Audit System|Disable Linux audit
+T1562.013|Disable or Modify Network Device Firewall|Disable network device-based firewall
+T1656|Impersonation|Impersonate legitimate applications
+T1070|Indicator Removal|Remove indicators
+T1070.001|Clear Windows Event Logs|Clear event logs
+T1070.002|Clear Linux or Mac System Logs|Clear system logs
+T1070.003|Clear Command History|Clear command history
+T1070.004|File Deletion|Delete files
+T1070.005|Network Share Connection Removal|Remove network connections
+T1070.006|Timestomp|Modify file timestamps
+T1070.007|Clear Network Connection History and Configurations|Clear network history
+T1070.008|Clear Mailbox Data|Clear mailbox data
+T1070.009|Clear Persistence|Clear persistence
+T1070.010|Relocate Malware|Relocate malware
+T1202|Indirect Command Execution|Abuse utilities for execution
+T1036|Masquerading|Masquerade as legitimate entities
+T1036.001|Invalid Code Signature|Invalid signatures
+T1036.002|Right-to-Left Override|RTLO
+T1036.003|Rename System Utilities|Rename utilities
+T1036.004|Masquerade Task or Service|Masquerade tasks
+T1036.005|Match Legitimate Name or Location|Match legitimate names
+T1036.006|Space after Filename|Trailing spaces
+T1036.007|Double File Extension|Double extensions
+T1036.008|Masquerade File Type|Masquerade file type
+T1036.009|Break Process Trees|Break process trees
+T1036.010|Masquearde Account Name|Masquerade account name
+T1036.011|Overwrite Process Arguments|Overwrite process arguments
+T1036.012|Browser Fingerprint|Spoof browser fingerprint
+T1556|Modify Authentication Process|Modify authentication mechanisms
+T1556.001|Domain Controller Authentication|Modify DC authentication
+T1556.002|Password Filter DLL|Password filter DLL
+T1556.003|Pluggable Authentication Modules|Modify PAM
+T1556.004|Network Device Authentication|Network device auth
+T1556.005|Reversible Encryption|Reversible encryption
+T1556.006|Multi-Factor Authentication|Modify MFA
+T1556.007|Hybrid Identity|Hybrid identity
+T1556.008|Network Provider DLL|Network provider DLL
+T1556.009|Conditional Access Policies|Conditional access policies
+T1578|Modify Cloud Compute Infrastructure|Modify cloud infrastructure
+T1578.001|Create Snapshot|Create snapshots
+T1578.002|Create Cloud Instance|Create instances
+T1578.003|Delete Cloud Instance|Delete instances
+T1578.004|Revert Cloud Instance|Revert instances
+T1578.005|Modify Cloud Compute Configurations|Modify compute configs
+T1666|Modify Cloud Compute Configurations|Modify hierarchical structures in IaaS environments
+T1112|Modify Registry|Modify registry
+T1601|Modify System Image|Modify system images
+T1601.001|Patch System Image|Patch system images
+T1601.002|Downgrade System Image|Downgrade system images
+T1599|Network Boundary Bridging|Bridge network boundaries
+T1599.001|Network Address Translation Traversal|NAT traversal
+T1027|Obfuscated Files or Information|Obfuscate files
+T1027.001|Binary Padding|Binary padding
+T1027.002|Software Packing|Software packing
+T1027.003|Steganography|Steganography
+T1027.004|Compile After Delivery|Compile after delivery
+T1027.005|Indicator Removal from Tools|Remove indicators
+T1027.006|HTML Smuggling|HTML smuggling
+T1027.007|Dynamic API Resolution|Dynamic API resolution
+T1027.008|Stripped Payloads|Stripped payloads
+T1027.009|Embedded Payloads|Embedded payloads
+T1027.010|Command Obfuscation|Command obfuscation
+T1027.011|Fileless Storage|Fileless storage
+T1027.013|Encrypted/Encoded File|Encrypted/encoded file
+T1027.014|Polymorphic Code|Utilize polymorphic code
+T1027.015|Compression|Obfuscate payloads and files with compression
+T1027.016|Junk Code Insertion|Junk code insertion
+T1027.017|SVG Smuggling|Smuggle data and files using SVG files
+T1647|Plist File Modification|Modify plist files
+T1542|Pre-OS Boot|Abuse pre-OS boot
+T1542.001|System Firmware|Modify system firmware
+T1542.002|Component Firmware|Modify component firmware
+T1542.003|Bootkit|Bootkits
+T1542.004|ROMMONkit|ROMMONkits
+T1542.005|TFTP Boot|TFTP boot
+T1055|Process Injection|Inject code into processes
+T1055.001|Dynamic-link Library Injection|DLL injection
+T1055.002|Portable Executable Injection|PE injection
+T1055.003|Thread Execution Hijacking|Thread execution hijacking
+T1055.004|Asynchronous Procedure Call|APC injection
+T1055.005|Thread Local Storage|TLS injection
+T1055.008|Ptrace System Calls|Ptrace
+T1055.009|Proc Memory|Proc memory
+T1055.011|Extra Window Memory Injection|EWM injection
+T1055.012|Process Hollowing|Process hollowing
+T1055.013|Process Doppelgänging|Process doppelgänging
+T1055.014|VDSO Hijacking|VDSO hijacking
+T1055.015|ListPlanting|ListPlanting
+T1620|Reflective Code Loading|Reflectively load code
+T1207|Rogue Domain Controller|Register rogue DCs
+T1014|Rootkit|Use rootkits
+T1679|Selective Exclusion|Selective exclusion
+T1553|Subvert Trust Controls|Undermine security controls
+T1553.001|Gatekeeper Bypass|Bypass Gatekeeper
+T1553.002|Code Signing|Sign code
+T1553.003|SIP and Trust Provider Hijacking|Hijack SIP
+T1553.004|Install Root Certificate|Install root certificates
+T1553.005|Mark-of-the-Web Bypass|Bypass MOTW
+T1553.006|Code Signing Policy Modification|Modify code signing policies
+T1218|System Binary Proxy Execution|Proxy execution via system binaries
+T1218.001|Compiled HTML File|CHM files
+T1218.002|Control Panel|Control Panel
+T1218.003|CMSTP|CMSTP
+T1218.004|InstallUtil|InstallUtil
+T1218.005|Mshta|Mshta
+T1218.007|Msiexec|Msiexec
+T1218.008|Odbcconf|Odbcconf
+T1218.009|Regsvcs/Regasm|Regsvcs/Regasm
+T1218.010|Regsvr32|Regsvr32
+T1218.011|Rundll32|Rundll32
+T1218.012|Verclsid|Verclsid
+T1218.013|Mavinject|Mavinject
+T1218.014|MMC|MMC
+T1218.015|Electron Applications|Abuse components of the Electron framework
+T1216|System Script Proxy Execution|Use system scripts
+T1216.001|PubPrn|PubPrn
+T1216.002|SyncAppvPublishingServer|Abuse SyncAppvPublishingServer.vbs
+T1221|Template Injection|Inject malicious templates
+T1205|Traffic Signaling|Use traffic signaling
+T1205.001|Port Knocking|Port knocking
+T1205.002|Socket Filters|Socket filters
+T1127|Trusted Developer Utilities Proxy Execution|Use trusted developer utilities
+T1127.001|MSBuild|MSBuild
+T1127.002|ClickOnce|ClickOnce
+T1127.003|JamPlus|JamPLus
+T1535|Unused/Unsupported Cloud Regions|Use unused cloud regions
+T1550|Use Alternate Authentication Material|Use alternate authentication
+T1550.001|Application Access Token|Application tokens
+T1550.002|Pass the Hash|Pass the hash
+T1550.003|Pass the Ticket|Pass the ticket
+T1550.004|Web Session Cookie|Web session cookies
+T1078|Valid Accounts|Obtain and abuse credentials
+T1078.001|Default Accounts|Default accounts
+T1078.002|Domain Accounts|Domain accounts
+T1078.003|Local Accounts|Local accounts
+T1078.004|Cloud Accounts|Cloud accounts
+T1497|Virtualization/Sandbox Evasion|Evade defenses using virtualization
+T1497.001|System Checks|System checks
+T1497.002|User Activity Based Checks|User activity checks
+T1497.003|Time Based Evasion|Time-based evasion
+T1600|Weaken Encryption|Weaken encryption
+T1600.001|Reduce Key Space|Reduce key space
+T1600.002|Disable Crypto Hardware|Disable crypto hardware
+T1220|XSL Script Processing|Use XSL files
+#TA0006
+T1557|Adversary-in-the-Middle|Position between devices
+T1557.001|LLMNR/NBT-NS Poisoning and SMB Relay|LLMNR/NBT-NS poisoning
+T1557.002|ARP Cache Poisoning|ARP cache poisoning
+T1557.003|DHCP Spoofing|DHCP spoofing
+T1557.004|Evil Twin|Evil twin
+T1110|Brute Force|Use brute force
+T1110.001|Password Guessing|Password guessing
+T1110.002|Password Cracking|Password cracking
+T1110.003|Password Spraying|Password spraying
+T1110.004|Credential Stuffing|Credential stuffing
+T1555|Credentials from Password Stores|Search password stores
+T1555.001|Keychain|Keychain
+T1555.002|Securityd Memory|Securityd memory
+T1555.003|Credentials from Web Browsers|Browser credentials
+T1555.004|Windows Credential Manager|Windows Credential Manager
+T1555.005|Password Managers|Password managers
+T1555.006|Cloud Secrets Management Stores|Cloud secrets management
+T1212|Exploitation for Credential Access|Exploit software for credential access
+T1187|Forced Authentication|Forced authentication
+T1606|Forge Web Credentials|Forge web credentials
+T1606.001|Web Cookies|Web cookies
+T1606.002|SAML Tokens|SAML tokens
+T1056|Input Capture|Capture user input
+T1056.001|Keylogging|Keylogging
+T1056.002|GUI Input Capture|GUI input capture
+T1056.003|Web Portal Capture|Web portal capture
+T1056.004|Credential API Hooking|Credential API hooking
+T1556|Modify Authentication Process|Modify authentication mechanisms
+T1556.001|Domain Controller Authentication|Modify DC authentication
+T1556.002|Password Filter DLL|Password filter DLL
+T1556.003|Pluggable Authentication Modules|Modify PAM
+T1556.004|Network Device Authentication|Network device auth
+T1556.005|Reversible Encryption|Reversible encryption
+T1556.006|Multi-Factor Authentication|Modify MFA
+T1556.007|Hybrid Identity|Hybrid identity
+T1556.008|Network Provider DLL|Network provider DLL
+T1556.009|Conditional Access Policies|Conditional access policies
+T1111|Multi-Factor Authentication Interception|Intercept MFA
+T1621|Multi-Factor Authentication Request Generation|Generate MFA requests
+T1040|Network Sniffing|Sniff network traffic
+T1003|OS Credential Dumping|Dump credentials
+T1003.001|LSASS Memory|LSASS memory
+T1003.002|Security Account Manager|SAM
+T1003.003|NTDS|NTDS
+T1003.004|LSA Secrets|LSA secrets
+T1003.005|Cached Domain Credentials|Cached credentials
+T1003.006|DCSync|DCSync
+T1003.007|Proc Filesystem|Proc filesystem
+T1003.008|/etc/passwd and /etc/shadow|/etc/passwd and /etc/shadow
+T1528|Steal Application Access Token|Steal application access tokens
+T1649|Steal or Forge Authentication Certificates|Steal or forge authentication certificates
+T1558|Steal or Forge Kerberos Tickets|Steal or forge Kerberos tickets
+T1558.001|Golden Ticket|Golden ticket
+T1558.002|Silver Ticket|Silver ticket
+T1558.003|Kerberoasting|Kerberoasting
+T1558.004|AS-REP Roasting|AS-REP roasting
+T1558.005|Ccache Files|Ccache files
+T1539|Steal Web Session Cookie|Steal web session cookies
+T1552|Unsecured Credentials|Search for unsecured credentials
+T1552.001|Credentials In Files|Credentials in files
+T1552.002|Credentials in Registry|Credentials in registry
+T1552.003|Bash History|Bash history
+T1552.004|Private Keys|Private keys
+T1552.005|Cloud Instance Metadata API|Cloud metadata API
+T1552.006|Group Policy Preferences|GPP
+T1552.007|Container API|Container API
+T1552.008|Chat Messages|Chat messages
+#TA0007
+T1087|Account Discovery|Get account listings
+T1087.001|Local Account|Local account
+T1087.002|Domain Account|Domain account
+T1087.003|Email Account|Email account
+T1087.004|Cloud Account|Cloud account
+T1010|Application Window Discovery|List open windows
+T1217|Browser Information Discovery|Gather browser information
+T1580|Cloud Infrastructure Discovery|Discover cloud infrastructure
+T1538|Cloud Service Dashboard|Access cloud service dashboard
+T1526|Cloud Service Discovery|Discover cloud services
+T1619|Cloud Storage Object Discovery|Discover cloud storage infrastructure
+T1613|Container and Resource Discovery|Discover containers and resources
+T1622|Debugger Evasion|Evade debugger detection
+T1652|Device Driver Discovery|Discover device drivers
+T1482|Domain Trust Discovery|Discover domain trusts
+T1083|File and Directory Discovery|Enumerate files and directories
+T1615|Group Policy Discovery|Discover group policies
+T1680|Local Storage Discovery|Discover local storage
+T1654|Log Enumeration|Enumerate logs
+T1046|Network Service Discovery|Discover services
+T1135|Network Share Discovery|Discover network shares
+T1040|Network Sniffing|Sniff network traffic
+T1201|Password Policy Discovery|Discover password policies
+T1120|Peripheral Device Discovery|Discover peripherals
+T1069|Permission Groups Discovery|Discover permission groups
+T1069.001|Local Groups|Local groups
+T1069.002|Domain Groups|Domain groups
+T1069.003|Cloud Groups|Cloud groups
+T1057|Process Discovery|List running processes
+T1012|Query Registry|Query registry
+T1018|Remote System Discovery|Discover remote systems
+T1518|Software Discovery|Discover software
+T1518.001|Security Software Discovery|Security software discovery
+T1518.002|Backup Software Discovery|Backup software discovery
+T1082|System Information Discovery|Gather system information
+T1614|System Location Discovery|Discover system location
+T1614.001|System Language Discovery|System language discovery
+T1016|System Network Configuration Discovery|Discover network configuration
+T1016.001|Internet Connection Discovery|Internet connection discovery
+T1016.002|Wi-Fi Discovery|Wi-Fi discovery
+T1049|System Network Connections Discovery|Discover network connections
+T1033|System Owner/User Discovery|Discover system owner/user
+T1007|System Service Discovery|Discover system services
+T1124|System Time Discovery|Discover system time
+T1673|Virtual Machine Discovery|Discover virtual machines
+T1497|Virtualization/Sandbox Evasion|Evade defenses using virtualization
+T1497.001|System Checks|System checks
+T1497.002|User Activity Based Checks|User activity checks
+T1497.003|Time Based Evasion|Time-based evasion
+#TA0008
+T1210|Exploitation of Remote Services|Exploit remote services
+T1534|Internal Spearphishing|Use internal spearphishing
+T1570|Lateral Tool Transfer|Transfer tools laterally
+T1563|Remote Service Session Hijacking|Hijack remote service sessions
+T1563.001|SSH Hijacking|SSH hijacking
+T1563.002|RDP Hijacking|RDP hijacking
+T1021|Remote Services|Use remote services
+T1021.001|Remote Desktop Protocol|RDP
+T1021.002|SMB/Windows Admin Shares|SMB
+T1021.003|Distributed Component Object Model|DCOM
+T1021.004|SSH|SSH
+T1021.005|VNC|VNC
+T1021.006|Windows Remote Management|WinRM
+T1021.007|Cloud Services|Cloud services
+T1021.008|Direct Cloud VM Connections|Direct cloud VM connections
+T1091|Replication Through Removable Media|Copy malware to removable media
+T1072|Software Deployment Tools|Abuse software deployment tools
+T1080|Taint Shared Content|Taint shared content
+T1550|Use Alternate Authentication Material|Use alternate authentication
+T1550.001|Application Access Token|Application tokens
+T1550.002|Pass the Hash|Pass the hash
+T1550.003|Pass the Ticket|Pass the ticket
+T1550.004|Web Session Cookie|Web session cookies
+#TA0009
+T1557|Adversary-in-the-Middle|Position between devices
+T1557.001|LLMNR/NBT-NS Poisoning and SMB Relay|LLMNR/NBT-NS poisoning
+T1557.002|ARP Cache Poisoning|ARP cache poisoning
+T1557.003|DHCP Spoofing|DHCP spoofing
+T1557.004|Evil Twin|Evil twin
+T1560|Archive Collected Data|Archive collected data
+T1560.001|Archive via Utility|Archive via utility
+T1560.002|Archive via Library|Archive via library
+T1560.003|Archive via Custom Method|Archive via custom method
+T1123|Audio Capture|Capture audio
+T1119|Automated Collection|Automate collection
+T1185|Browser Session Hijacking|Hijack browser sessions
+T1115|Clipboard Data|Collect clipboard data
+T1530|Data from Cloud Storage|Collect data from cloud storage
+T1602|Data from Configuration Repository|Collect data from configuration repository
+T1602.001|SNMP (MIB Dump)|SNMP MIB dump
+T1602.002|Network Device Configuration Dump|Network device config dump
+T1213|Data from Information Repositories|Collect data from information repositories
+T1213.001|Confluence|Confluence
+T1213.002|Sharepoint|Sharepoint
+T1213.003|Code Repositories|Code repositories
+T1213.004|Customer Relationship Management Software|CRM Software
+T1213.005|Messaging Applications|Messaging applications
+T1213.006|Databases|Databases
+T1005|Data from Local System|Search local system
+T1039|Data from Network Shared Drive|Collect data from network shared drive
+T1025|Data from Removable Media|Collect data from removable media
+T1074|Data Staged|Stage collected data
+T1074.001|Local Data Staging|Local data staging
+T1074.002|Remote Data Staging|Remote data staging
+T1114|Email Collection|Collect email
+T1114.001|Local Email Collection|Local email collection
+T1114.002|Remote Email Collection|Remote email collection
+T1114.003|Email Forwarding Rule|Email forwarding rule
+T1056|Input Capture|Capture user input
+T1056.001|Keylogging|Keylogging
+T1056.002|GUI Input Capture|GUI input capture
+T1056.003|Web Portal Capture|Web portal capture
+T1056.004|Credential API Hooking|Credential API hooking
+T1113|Screen Capture|Capture screens
+T1125|Video Capture|Capture video
+#TA0011
+T1071|Application Layer Protocol|Use application layer protocols
+T1071.001|Web Protocols|Web protocols
+T1071.002|File Transfer Protocols|File transfer protocols
+T1071.003|Mail Protocols|Mail protocols
+T1071.004|DNS|DNS
+T1071.005|Publish/Subscribe Protocols|Publish/subscribe protocols
+T1092|Communication Through Removable Media|Communicate through removable media
+T1659|Content Injection|Content injection
+T1132|Data Encoding|Encode data
+T1132.001|Standard Encoding|Standard encoding
+T1132.002|Non-Standard Encoding|Non-standard encoding
+T1001|Data Obfuscation|Obfuscate data
+T1001.001|Junk Data|Junk data
+T1001.002|Steganography|Steganography
+T1001.003|Protocol Impersonation|Protocol impersonation
+T1568|Dynamic Resolution|Use dynamic resolution
+T1568.001|Fast Flux DNS|Fast flux DNS
+T1568.002|Domain Generation Algorithms|DGA
+T1568.003|DNS Calculation|DNS calculation
+T1573|Encrypted Channel|Use encrypted channels
+T1573.001|Symmetric Cryptography|Symmetric cryptography
+T1573.002|Asymmetric Cryptography|Asymmetric cryptography
+T1008|Fallback Channels|Use fallback channels
+T1665|Hide Infrastructure|Hide infrastructure
+T1105|Ingress Tool Transfer|Transfer tools
+T1104|Multi-Stage Channels|Use multi-stage channels
+T1095|Non-Application Layer Protocol|Use non-application layer protocols
+T1571|Non-Standard Port|Use non-standard ports
+T1572|Protocol Tunneling|Use protocol tunneling
+T1090|Proxy|Use proxies
+T1090.001|Internal Proxy|Internal proxy
+T1090.002|External Proxy|External proxy
+T1090.003|Multi-hop Proxy|Multi-hop proxy
+T1090.004|Domain Fronting|Domain fronting
+T1219|Remote Access Software|Use remote access software
+T1219.001|IDE Tunneling|IDE tunneling
+T1219.002|Remote Desktop Software|Remote desktop software
+T1219.003|Remote Access Hardware|Remote access hardware
+T1205|Traffic Signaling|Use traffic signaling
+T1205.001|Port Knocking|Port knocking
+T1205.002|Socket Filters|Socket filters
+T1102|Web Service|Use web services
+T1102.001|Dead Drop Resolver|Dead drop resolver
+T1102.002|Bidirectional Communication|Bidirectional communication
+T1102.003|One-Way Communication|One-way communication
+#TA0010
+T1020|Automated Exfiltration|Automate exfiltration
+T1020.001|Traffic Duplication|Traffic duplication
+T1030|Data Transfer Size Limits|Use data transfer size limits
+T1048|Exfiltration Over Alternative Protocol|Use alternative protocols
+T1048.001|Exfiltration Over Symmetric Encrypted Non-C2 Protocol|Symmetric encrypted non-C2
+T1048.002|Exfiltration Over Asymmetric Encrypted Non-C2 Protocol|Asymmetric encrypted non-C2
+T1048.003|Exfiltration Over Unencrypted Non-C2 Protocol|Unencrypted non-C2
+T1041|Exfiltration Over C2 Channel|Exfiltrate over C2
+T1011|Exfiltration Over Other Network Medium|Exfiltrate over other network medium
+T1011.001|Exfiltration Over Bluetooth|Exfiltration over Bluetooth
+T1052|Exfiltration Over Physical Medium|Exfiltrate over physical medium
+T1052.001|Exfiltration over USB|Exfiltration over USB
+T1567|Exfiltration Over Web Service|Exfiltrate over web services
+T1567.001|Exfiltration to Code Repository|Exfiltration to code repository
+T1567.002|Exfiltration to Cloud Storage|Exfiltration to cloud storage
+T1567.003|Exfiltration to Text Storage Sites|Exfiltration to text storage
+T1567.004|Exfiltration Over Webhook|Exfiltration over webhook
+T1029|Scheduled Transfer|Schedule transfers
+T1537|Transfer Data to Cloud Account|Transfer data to cloud account
+#TA0040
+T1531|Account Access Removal|Remove account access
+T1485|Data Destruction|Destroy data
+T1485.001|Lifecycle-Triggered Deletion|Lifecycle-triggered deletion
+T1486|Data Encrypted for Impact|Encrypt data
+T1565|Data Manipulation|Manipulate data
+T1565.001|Stored Data Manipulation|Stored data manipulation
+T1565.002|Transmitted Data Manipulation|Transmitted data manipulation
+T1565.003|Runtime Data Manipulation|Runtime data manipulation
+T1491|Defacement|Deface systems
+T1491.001|Internal Defacement|Internal defacement
+T1491.002|External Defacement|External defacement
+T1561|Disk Wipe|Wipe disks
+T1561.001|Disk Content Wipe|Disk content wipe
+T1561.002|Disk Structure Wipe|Disk structure wipe
+T1667|Email Bombing|Email bombing
+T1499|Endpoint Denial of Service|Perform DoS
+T1499.001|OS Exhaustion Flood|OS exhaustion flood
+T1499.002|Service Exhaustion Flood|Service exhaustion flood
+T1499.003|Application Exhaustion Flood|Application exhaustion flood
+T1499.004|Application or System Exploitation|Application/system exploitation
+T1657|Financial Theft|Financial theft
+T1495|Firmware Corruption|Corrupt firmware
+T1490|Inhibit System Recovery|Inhibit system recovery
+T1498|Network Denial of Service|Perform network DoS
+T1498.001|Direct Network Flood|Direct network flood
+T1498.002|Reflection Amplification|Reflection amplification
+T1496|Resource Hijacking|Hijack resources
+T1496.001|Compute Hijacking|Compute hijacking
+T1496.002|Bandwidth Hijacking|Bandwidth hijacking
+T1496.003|SMS Pumping|SMS pumping
+T1496.004|Cloud Service Hijacking|Cloud service hijacking
+T1489|Service Stop|Stop services
+T1529|System Shutdown/Reboot|Shutdown/reboot system

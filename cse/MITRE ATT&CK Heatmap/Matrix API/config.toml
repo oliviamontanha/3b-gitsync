@@ -1,0 +1,6 @@
+color = "teal"
+output = true
+route = "/mitre-matrix"
+route_auth = "space"
+route_type = "api"
+title = "ATT&CK Matrix API"
