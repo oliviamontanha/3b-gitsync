@@ -1,0 +1,5 @@
+color = "purple"
+output = true
+route = "/mitre-heatmap"
+route_type = "webpage"
+title = "MITRE ATT&CK Heatmap"

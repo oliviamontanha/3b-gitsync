@@ -1,0 +1,7 @@
+color = "teal"
+output = true
+route = "/mitre-detections"
+route_auth = "space"
+route_type = "api"
+title = "Detections API"
+connectors = [{ name = "tines-stories-olivia", type = "tines" }]
