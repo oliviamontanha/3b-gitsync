@@ -1,0 +1,4 @@
+color = "purple"
+cron = "*/15 * * * *"
+connectors = [{ name = "tines-stories-olivia", type = "tines" }]
+timeout = 120
