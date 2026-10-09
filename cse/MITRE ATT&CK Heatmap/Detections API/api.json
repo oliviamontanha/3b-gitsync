@@ -1,0 +1,43 @@
+{
+  "get": {
+    "summary": "List detection records with their MITRE ATT&CK technique coverage, sourced from Tines Records",
+    "responses": {
+      "200": {
+        "description": "Detection records",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "required": ["records", "count"],
+              "properties": {
+                "count": { "type": "integer", "description": "Number of detection records returned" },
+                "refreshed_at": {
+                  "type": ["string", "null"],
+                  "format": "date-time",
+                  "description": "When this snapshot of the Tines Records data was built"
+                },
+                "source": {
+                  "type": "string",
+                  "enum": ["cache", "live"],
+                  "description": "Whether the payload came from the cached snapshot or a live Tines fetch"
+                },
+                "records": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["Name", "Source", "Techniques"],
+                    "properties": {
+                      "Name": { "type": "string" },
+                      "Source": { "type": "string" },
+                      "Techniques": { "type": "string", "description": "Comma-separated MITRE technique IDs" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

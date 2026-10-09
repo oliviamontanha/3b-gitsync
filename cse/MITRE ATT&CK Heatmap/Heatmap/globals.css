@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@source "./**/*.tsx";
+
+/* Colour-scheme classes are built at runtime from filterState.colorScheme, so Tailwind can't see them. */
+@source inline("bg-{indigo,blue,purple,green,cyan,red}-{200,400,500,600}");
+@source inline("border-{indigo,blue,purple,green,cyan,red}-{300,500,700}");
+@source inline("text-{indigo,blue,purple,green,cyan,red}-900");

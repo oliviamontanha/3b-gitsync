@@ -1,0 +1,83 @@
+{
+  "get": {
+    "summary": "Current MITRE Enterprise ATT&CK matrix and threat group mappings",
+    "description": "Returns the normalized ATT&CK snapshot published weekly by the Refresh ATT&CK step. Responds 404 until the first refresh has run.",
+    "responses": {
+      "200": {
+        "description": "The cached ATT&CK snapshot",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "required": ["version", "fetchedAt", "tactics", "techniques", "groups"],
+              "properties": {
+                "version": { "type": "string", "description": "ATT&CK release version, e.g. 19.2" },
+                "fetchedAt": { "type": "string", "format": "date-time" },
+                "tactics": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "name", "shortName", "order"],
+                    "properties": {
+                      "id": { "type": "string", "description": "Tactic ATT&CK id, e.g. TA0001" },
+                      "name": { "type": "string" },
+                      "shortName": { "type": "string" },
+                      "order": { "type": "integer", "description": "Column position in the published matrix" }
+                    }
+                  }
+                },
+                "techniques": {
+                  "type": "array",
+                  "description": "One entry per technique/tactic pairing, so a technique repeats across the tactics it belongs to.",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "name", "tacticId", "description"],
+                    "properties": {
+                      "id": { "type": "string", "description": "Technique id, e.g. T1566 or T1566.001" },
+                      "name": { "type": "string" },
+                      "tacticId": { "type": "string" },
+                      "description": { "type": "string" },
+                      "isSubTechnique": { "type": "boolean" },
+                      "parentId": { "type": "string" }
+                    }
+                  }
+                },
+                "groups": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "name", "aliases", "description", "techniques", "modified"],
+                    "properties": {
+                      "id": { "type": "string", "description": "Group ATT&CK id, e.g. G0016" },
+                      "name": { "type": "string" },
+                      "aliases": { "type": "array", "items": { "type": "string" } },
+                      "description": { "type": "string" },
+                      "techniques": {
+                        "type": "array",
+                        "description": "Technique and sub-technique ids the group is known to use",
+                        "items": { "type": "string" }
+                      },
+                      "modified": { "type": "string", "description": "Date the group entry last changed (YYYY-MM-DD)" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "404": {
+        "description": "No snapshot cached yet",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "required": ["error"],
+              "properties": { "error": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}
